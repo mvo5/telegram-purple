@@ -1,0 +1,65 @@
+telegram-purple (1.2.1~beta+git20151003.gbp3a53dd8-0ubuntu1) wily; urgency=medium
+
+  * new snapshot with gbp
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Fri, 16 Oct 2015 15:55:48 +0200
+
+telegram-purple (1.2.1~beta+git20150923~webupd8~wily1) wily; urgency=medium
+
+  * Latest Git
+
+ -- Alin Andrei <webupd8@gmail.com>  Wed, 23 Sep 2015 12:44:19 +0200
+
+telegram-purple (1.2.0~beta+git20150831~webupd8~wily1) wily; urgency=medium
+
+  * Latest Git
+
+ -- Alin Andrei <webupd8@gmail.com>  Mon, 31 Aug 2015 12:32:14 +0200
+
+telegram-purple (1.1.0~beta+git20150811~webupd8~wily1) wily; urgency=medium
+
+  * Latest Git
+  * Build-depend on libwebp-dev
+
+ -- Alin Andrei <webupd8@gmail.com>  Tue, 11 Aug 2015 17:37:29 +0200
+
+telegram-purple (1.0.0beta~webupd8~vivid0) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Alin Andrei <webupd8@gmail.com>  Mon, 04 May 2015 11:32:41 +0200
+
+telegram-purple (0.7.0-1~webupd8~vivid0) vivid; urgency=medium
+
+  * New upstream release
+  * Disabled fix-makefile-create-folders.patch (fixed upstream)
+
+ -- Alin Andrei <webupd8@gmail.com>  Thu, 05 Mar 2015 12:17:34 +0200
+
+telegram-purple (0.6.1-1~webupd8~vivid1) vivid; urgency=medium
+
+  * New upstream release
+  * Disable fix-makefile-etc-path.patch (applied upstream)
+  * Added fix-makefile-create-folders.patch
+
+ -- Alin Andrei <webupd8@gmail.com>  Mon, 02 Feb 2015 14:52:44 +0200
+
+telegram-purple (0.6.0-4~webupd8~utopic0) utopic; urgency=medium
+
+  * new upstream release
+  * Disable fix-makefile-etc-path.patch (applied upstream)
+
+ -- Alin Andrei <webupd8@gmail.com>  Mon, 12 Jan 2015 12:43:19 +0200
+
+telegram-purple (0.5-2~webupd8~utopic0) utopic; urgency=medium
+
+  * new upstream release
+  * updated fix-makefile-etc-path.patch with other fixes
+
+ -- Alin Andrei <webupd8@gmail.com>  Mon, 24 Nov 2014 15:08:24 +0200
+
+telegram-purple (0.3.3-1~webupd8~precise0) precise; urgency=medium
+
+  * initial debianization
+
+ -- Alin Andrei <webupd8@gmail.com>  Thu, 06 Nov 2014 13:23:41 +0200

@@ -1,0 +1,14 @@
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -62,6 +62,10 @@
+ .PHONY: install
+ install: $(PRPL_LIBNAME)
+ 	mkdir -p $(DESTDIR)/etc/telegram-purple
++	mkdir -p $(DESTDIR)$(PLUGIN_DIR_PURPLE)
++	mkdir -p $(DESTDIR)$(DATA_ROOT_DIR_PURPLE)/pixmaps/pidgin/protocols/16
++	mkdir -p $(DESTDIR)$(DATA_ROOT_DIR_PURPLE)/pixmaps/pidgin/protocols/22
++	mkdir -p $(DESTDIR)$(DATA_ROOT_DIR_PURPLE)/pixmaps/pidgin/protocols/48
+ 	install $(PRPL_LIBNAME) $(DESTDIR)$(PLUGIN_DIR_PURPLE)/$(PRPL_NAME)
+ 	install tg-server.pub $(DESTDIR)/etc/telegram-purple/server.pub
+ 	install imgs/telegram16.png $(DESTDIR)$(DATA_ROOT_DIR_PURPLE)/pixmaps/pidgin/protocols/16/telegram.png
+
